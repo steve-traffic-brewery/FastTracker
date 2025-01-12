@@ -1,0 +1,13 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple Developer Portal username
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+# Appfile
+app_identifier "com.john.FastTracker" # Ідентифікатор вашого додатка (Bundle Identifier)
+apple_id "julianepuen@gmx.net"      # Ваш Apple ID (для входу в App Store Connect)
+
+# Інші необов’язкові параметри
+team_id "8K5WSDTMYX"                   # Ваш Team ID (знайдіть у Developer Portal)

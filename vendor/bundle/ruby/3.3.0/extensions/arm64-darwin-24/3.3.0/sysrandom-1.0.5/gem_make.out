@@ -1,0 +1,19 @@
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/sysrandom-1.0.5/ext/sysrandom
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/sysrandom-1.0.5/ext/sysrandom
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-tqwpkz sitelibdir\=./.gem.20241218-57920-tqwpkz clean
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/sysrandom-1.0.5/ext/sysrandom
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-tqwpkz sitelibdir\=./.gem.20241218-57920-tqwpkz
+compiling randombytes_sysrandom.c
+compiling sysrandom_ext.c
+linking shared-object sysrandom_ext.bundle
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/sysrandom-1.0.5/ext/sysrandom
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-tqwpkz sitelibdir\=./.gem.20241218-57920-tqwpkz install
+/usr/bin/install -c -m 0755 sysrandom_ext.bundle ./.gem.20241218-57920-tqwpkz
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/sysrandom-1.0.5/ext/sysrandom
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-tqwpkz sitelibdir\=./.gem.20241218-57920-tqwpkz clean

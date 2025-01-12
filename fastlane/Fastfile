@@ -1,0 +1,22 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Відправка збірки в App Store"
+  lane :upload_to_appstore do
+    # Оновлення профілів підпису та сертифікатів
+    sync_code_signing(type: "appstore")
+    
+    # Архівування та створення IPA
+    gym(
+      scheme: "com.john.FastTracker",  # Назва вашої схеми з Xcode
+      export_method: "app-store"
+    )
+    
+    # Завантаження збірки в App Store Connect
+    deliver(
+      submit_for_review: false, # Якщо хочете завантажити без надсилання на рев'ю
+      skip_metadata: true,      # Пропустити оновлення метаданих
+      skip_screenshots: true    # Пропустити завантаження скриншотів
+    )
+  end
+end

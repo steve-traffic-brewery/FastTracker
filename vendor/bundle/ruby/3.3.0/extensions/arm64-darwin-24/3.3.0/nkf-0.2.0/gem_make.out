@@ -1,0 +1,18 @@
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-lx2pua sitelibdir\=./.gem.20241218-57920-lx2pua clean
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-lx2pua sitelibdir\=./.gem.20241218-57920-lx2pua
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-lx2pua sitelibdir\=./.gem.20241218-57920-lx2pua install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20241218-57920-lx2pua
+
+current directory: /Users/steve/Documents/Work/PlayingWithFastlane/FastTracker/vendor/bundle/ruby/3.3.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20241218-57920-lx2pua sitelibdir\=./.gem.20241218-57920-lx2pua clean
