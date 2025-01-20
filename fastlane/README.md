@@ -13,15 +13,42 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 # Available Actions
 
-## iOS
-
-### ios upload_to_appstore
+### deploy
 
 ```sh
-[bundle exec] fastlane ios upload_to_appstore
+[bundle exec] fastlane deploy
 ```
 
-Відправка додатка в App Store
+
+
+----
+
+
+## iOS
+
+### ios appcreate
+
+```sh
+[bundle exec] fastlane ios appcreate
+```
+
+
+
+### ios certificates
+
+```sh
+[bundle exec] fastlane ios certificates
+```
+
+
+
+### ios build
+
+```sh
+[bundle exec] fastlane ios build
+```
+
+
 
 ----
 

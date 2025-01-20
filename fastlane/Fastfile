@@ -40,7 +40,12 @@ clean: true,
 project: "./#{SCHEME}.xcodeproj",
 output_directory: OUTPUT_DIR, 
 output_name: OUTPUT_NAME,
-verbose: true 				# Turn on detailed logs
+verbose: true,
+export_options: {
+ provisioningProfiles: {
+    "com.john.FastTracker" => "match AppStore com.john.FastTracker"
+ }
+} 				# Turn on detailed logs
 )
 UI.success("The build was completed successfully")
 end

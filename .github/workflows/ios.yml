@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        
+      - name: Install required gems
+        run: |
+        gem install logger mutex_m abbrev
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
