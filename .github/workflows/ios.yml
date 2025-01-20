@@ -14,11 +14,8 @@ jobs:
       - name: Check Xcode version
         run: xcodebuild -version
 
-      # Встановлюємо потрібну версію Xcode
-      - name: Set up Xcode
-        uses: maxheld83/setup-xcode@v2
-        with:
-          xcode-version: '15.4' # Вказуємо конкретну версію Xcode
+      - name: Select Xcode version
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app
 
       - name: Checkout repository
         uses: actions/checkout@v3
