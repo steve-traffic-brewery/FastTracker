@@ -33,7 +33,7 @@ platform :ios do
       scheme: SCHEME,
       export_method: EXPORT_METHOD, 
       clean: true,             
-      project: "./#{SCHEME}.xcodeproj",
+      project: "./FastTracker.xcodeproj",
       output_directory: OUTPUT_DIR, 
       output_name: OUTPUT_NAME,
       verbose: true,
