@@ -21,10 +21,10 @@ jobs:
       - name: Install Fastlane
         run: |
           gem install bundler
-          bundle install
+          bundle install || gem install fastlane
 
       - name: Build App
-        run: fastlane build
+        run: bundle exec fastlane build
 
       - name: Deploy to TestFlight
         if: github.ref == 'refs/heads/main'
