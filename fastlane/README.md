@@ -13,17 +13,6 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 # Available Actions
 
-### deploy
-
-```sh
-[bundle exec] fastlane deploy
-```
-
-
-
-----
-
-
 ## iOS
 
 ### ios appcreate
@@ -46,6 +35,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 ```sh
 [bundle exec] fastlane ios build
+```
+
+
+
+### ios deploy
+
+```sh
+[bundle exec] fastlane ios deploy
 ```
 
 
