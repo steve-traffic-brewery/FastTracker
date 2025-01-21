@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AAACB6B22D1311E6008E8500 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		AAACB6B22D1311E6008E8500 /* Exceptions for "FastTracker" folder in "FastTracker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,7 +21,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AAACB6A22D1311E5008E8500 /* FastTracker */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (AAACB6B22D1311E6008E8500 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = FastTracker; sourceTree = "<group>"; };
+		AAACB6A22D1311E5008E8500 /* FastTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAACB6B22D1311E6008E8500 /* Exceptions for "FastTracker" folder in "FastTracker" target */,
+			);
+			path = FastTracker;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +99,6 @@
 				};
 			};
 			buildConfigurationList = AAACB69B2D1311E5008E8500 /* Build configuration list for PBXProject "FastTracker" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -101,6 +107,7 @@
 			);
 			mainGroup = AAACB6972D1311E5008E8500;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = AAACB6A12D1311E5008E8500 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
